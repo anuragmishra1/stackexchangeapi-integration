@@ -1,0 +1,24 @@
+{
+	"name": "api-server",
+	"version": "1.0.0",
+	"description": "Stackexchange API server",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"setup-server": "node ./Utils/SetupServer.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Anurag Mishra",
+	"license": "ISC",
+	"dependencies": {
+		"hapi": "^17.5.2",
+		"hapi-auth-bearer-token": "^6.0.1",
+		"hapi-swagger": "^9.1.1",
+		"inert": "^5.1.0",
+		"jsonwebtoken": "^8.3.0",
+		"mongoose": "^5.3.13",
+		"request": "^2.88.0",
+		"sharp": "^0.22.0",
+		"vision": "^5.3.3"
+	}
+}
