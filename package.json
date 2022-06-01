@@ -18,7 +18,7 @@
 		"jsonwebtoken": "^8.3.0",
 		"mongoose": "^5.7.5",
 		"request": "^2.88.0",
-		"sharp": "^0.22.0",
+		"sharp": "^0.30.5",
 		"vision": "^5.3.3"
 	}
 }
